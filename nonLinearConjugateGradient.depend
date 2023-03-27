@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1679347912 source:c:\wakim\empresas\exactumoptimizaion\code\tests\nonlinearconjugategradient\main.cpp
+	<iostream>
+	<vector>
+	<random>
+	<chrono>
+	<string>
+	<cmath>
+	"NonLinearCG.h"
+
+1679348005 source:c:\wakim\empresas\exactumoptimizaion\code\tests\nonlinearconjugategradient\src\nonlinearcg.cpp
+	"NonLinearCG.h"
+
+1679348030 c:\wakim\empresas\exactumoptimizaion\code\tests\nonlinearconjugategradient\include\nonlinearcg.h
+	<iostream>
+	<vector>
+	<cmath>
+
