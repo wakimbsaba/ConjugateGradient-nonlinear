@@ -76,11 +76,11 @@ follow the steps:
 2. Definition of a vector of N size, which will be used as a decision variable vector.
 
 3. Here is needed to instantiate the object NonLinearCG() and the following parameters is obligatory:
- - error: used as a stop criterion to finish the iterative process of the method;
- - step: the known "alpha" variable used into the method in order to define the size of step of convergence; 
- - deltaX: the size used in the differentiation dy/dx;
- - x: the decision variable vector;
- - f: function which one wants to find the minimum value. An example of sphere function could be something like this:
+   - error: used as a stop criterion to finish the iterative process of the method;
+   - step: the known "alpha" variable used into the method in order to define the size of step of convergence; 
+   - deltaX: the size used in the differentiation dy/dx;
+   - x: the decision variable vector;
+   - f: function which one wants to find the minimum value. An example of sphere function could be something like this:
 
 ```c++
 double f(vector<double> &x)
@@ -93,7 +93,7 @@ double f(vector<double> &x)
 } 
 ```
  
- - printable: a parameter to indicate to print the inner execution informations;
+   - printable: a parameter to indicate to print the inner execution informations;
  
 4. Execution of the method by calling execute() function.
 
