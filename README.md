@@ -37,7 +37,7 @@ Simple usage:
 int main()
 {
     double _deltaX = 0.01;
-    double _error = 0.001;
+    double _error = 0.5;
     double _step = 0.01;
     long N = 40;
 
@@ -156,5 +156,6 @@ min F(X*): 0.00227806
 ## References:
 
 [1.] [Conjugate gradient method](<https://en.wikipedia.org/wiki/Conjugate_gradient_method> "Wikipedia:Conjugate gradient method")
+
 [2.] [Random Normal Distribuition](<https://cplusplus.com/reference/random/normal_distribution/> "cplusplus:nomal distribution")
 
