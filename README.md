@@ -9,7 +9,9 @@ This implementation was created for academic use, but can be [adapted] for comme
 
 It is basically the implementation of the algorithm [1]:
 
-![](Algorithm.png)
+<p align="center">
+  <img width="600" height="200" src="Algorithm.png">
+</p>
 
 
 ## Use Cases
