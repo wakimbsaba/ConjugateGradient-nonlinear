@@ -39,8 +39,8 @@ void NonLinearCG::execute()
 
     if(printIteration)
     {
-        cout<< "k["<<0<<"] --------> f(x): " << f(*x) << endl;
         cout<< "-------------------------------------------"<< endl;
+        cout<< "k["<<0<<"] --------> f(x): " << f(*x) << endl;
         cout<< "-------------------------------------------"<< endl;
     }
     vector<double> p(x->size(), 0.0);
