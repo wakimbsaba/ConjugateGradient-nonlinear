@@ -1,3 +1,21 @@
+/////////////////////////////////////////////////
+///
+///  \class NonLinearCG
+///
+///  \brief General implementation of Non Linear Conjugate Gradient.
+///
+///  \author    Wakim B. Saba
+///  <a href="http://lattes.cnpq.br/6231635928638396">(lattes), </a>
+///  <a href="https://br.linkedin.com/in/wakim-saba-9940445">(linkedin)</a>
+///
+///  \version   1.0.0.0
+///
+///  \date      2023
+///
+///  \copyright (Apache License).
+///
+/////////////////////////////////////////////////
+
 #ifndef NONLINEARCG_H
 #define NONLINEARCG_H
 
