@@ -73,9 +73,9 @@ follow the steps:
 
 1. Random number initialization. After this, we can get a distribution that produces floating-point values between the intervals [-1000, +1000] according to a normal distribution, which is described by the following probability density function [2]:
 
-
-	![](NormalDistribution.png)
-
+<p align="center">
+  <img width="600" height="200" src="NormalDistribution.png">
+</p>
 
 2. Definition of a vector of N size, which will be used as a decision variable vector.
 
