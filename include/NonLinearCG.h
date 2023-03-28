@@ -8,17 +8,17 @@ using namespace std;
 
 class NonLinearCG
 {
-private:
+	private:
 
-    bool printIteration;
+		bool printIteration;
 
-    double error;
+		double error;
 
-    double step;
+		double step;
 
-    double deltaX;
+		double deltaX;
 
-    vector<double>*x;
+		vector<double>*x;
 
     public:
 
@@ -27,9 +27,6 @@ private:
         void execute();
 
         virtual ~NonLinearCG(){};
-
-
-    protected:
 
     private:
 
