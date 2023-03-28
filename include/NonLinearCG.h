@@ -5,10 +5,8 @@
 ///  \brief General implementation of Non Linear Conjugate Gradient.
 ///
 ///  \author    Wakim B. Saba
-[[ http://lattes.cnpq.br/6231635928638396 | Lattes Page ]]
-<a href="https://br.linkedin.com/in/wakim-saba-9940445">(linkedin)</a>
-[Conjugate gradient method](<https://en.wikipedia.org/wiki/Conjugate_gradient_method> "Wikipedia:Conjugate gradient method")
-
+///  <a href="http://lattes.cnpq.br/6231635928638396">(lattes), </a>
+///  <a href="https://br.linkedin.com/in/wakim-saba-9940445">(linkedin)</a>
 ///
 ///  \version   1.0.0.0
 ///
