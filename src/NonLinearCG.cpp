@@ -58,7 +58,6 @@ void NonLinearCG::execute()
     double sum_error =0.0;
     do
     {
-        //isGradZero(grad_f);
         double alpha = step;
 
         for(int i=0;i<(*x).size();i++)
@@ -66,7 +65,6 @@ void NonLinearCG::execute()
 
         double a =0.0, b=0.0, beta;
 
-        //grad(*x, grad_f);
         for(int i=0;i<(*x).size();i++)
             b += (grad_f[i] * grad_f[i]);
 
