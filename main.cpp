@@ -25,10 +25,10 @@ void printVector(vector<double> &xpto, string name)
 
 int main()
 {
-    double _deltaX = 0.01;
-    double _error = 0.001;
-    double _step = 0.01;
-    long N = 40;
+    double _error = 0.1;
+    double _step = _error/2.0;
+    double _deltaX = _error/10.0;
+    long N = 2;
 
     // 1 - RANDOM NUMBER INITIALIZATION
     std::default_random_engine generator(std::chrono::system_clock::now().time_since_epoch().count());
@@ -38,7 +38,7 @@ int main()
     vector<double> x(N, 0.0);
     for(int i=0;i<N;i++)
         x[i] = distribution(generator);
-    printVector(x, string("X_START"));
+    //printVector(x, string("X_START"));
     cout<< "-------------------------------------------"<< endl;
 
     // 3 - DEFINITION OF THE OBJECT ASSOCIATED TO THE METHOD
